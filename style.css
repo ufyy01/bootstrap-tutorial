@@ -69,11 +69,6 @@
 .card-header-item, .card-body-item {
     padding: 10px 13px;
 }
-/* .card-body-item p {
-    text-align: center;
-  word-break: keep-all; 
-  padding: 0 12px;
-} */
 .service-div {
     position: relative;
 }
@@ -83,6 +78,10 @@
     left: 545px;
     font-weight: 700;
 }
+  .services-img7 img {
+        margin-top: 60px;
+    }
+
 
 
 
@@ -100,6 +99,7 @@
     }
     .services-img img {
         width: 80%;
+        margin-top: 15px;
     }
 
     .service-inner-text {
@@ -107,7 +107,7 @@
     top: 380px;
     left: 250px;
     font-weight: 700;
-}
+    }
 }
 @media screen and (min-width: 1000px) {
     .svg-img {
