@@ -1,33 +1,117 @@
+
+
 .row {
- margin: 0 !important;
+    margin: 0 !important;
 }
 .nav-link {
- color: #222 !important;
+    color: #222 !important;
 }
+
 /* styling button */
-.btn-log, .btn-sign {
- outline: none;
- border: 0;
- box-shadow: none;
- cursor: pointer;
- font-size: 15px;
- background-color: transparent;
+.btn-log, .btn-sign, .btn-hero {
+    outline: none;
+    border: 0;
+    box-shadow: none;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: transparent;
 }
-.btn-sign {
- padding: 8px 22px;
- background: #372b7ae1;
- color: #e4e2e2ed;
- border-radius: 6px;
+
+.btn-sign, .btn-hero, .btn-services {
+    padding: 8px 22px;
+    background: #5000CA;
+    color: #e4e2e2ed;
+    border-radius: 6px;
 }
-.btn-sign:hover {
- background: #5a48c5e1;
+
+.btn-hero, .btn-services {
+    padding: 8px 37px;
+    text-transform: uppercase;
 }
-.herotext h1 {
- color: #0a042be1;
+ .btn-services {
+    padding: 8px 45px;
+    border: none;
 }
-.spectar {
- margin: 10% auto;
+
+.btn-sign:hover, .btn-hero:hover, .btn-services:hover {
+    background: #5a48c5e1;
+}
+
+.herotext h1 .services-text h2{
+    color: #0a042be1;
+}
+
+.spectar{
+    margin: 10% auto;
+}
+
+.card-item-footer {
+    background: orangered;
+    padding: 3px;
+}
+
+.card-section-item {
+    background: #5000CA;
+}
+
+.card-overall-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-item {
+    background: #fff;
+    margin-right: 20px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.card-header-item, .card-body-item {
+    padding: 10px 13px;
+}
+/* .card-body-item p {
+    text-align: center;
+  word-break: keep-all; 
+  padding: 0 12px;
+} */
+.service-div {
+    position: relative;
+}
+.service-inner-text {
+    position: absolute;
+    top: 230px;
+    left: 545px;
+    font-weight: 700;
 }
 
 
 
+
+@media screen and (max-width: 992px) {
+    .card-overall-section {
+        flex-direction: column;
+    }
+
+    .card-item {
+        margin: 0 0 20px 0;
+    }
+    .svg-img {
+        margin: -5px 0;
+    }
+    .services-img img {
+        width: 80%;
+    }
+
+    .service-inner-text {
+    position: absolute;
+    top: 380px;
+    left: 250px;
+    font-weight: 700;
+}
+}
+@media screen and (min-width: 1000px) {
+    .svg-img {
+        margin: -5px 0;
+        /* width: 100%; */
+    }
+}
