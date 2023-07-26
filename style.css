@@ -69,14 +69,15 @@
 .card-header-item, .card-body-item {
     padding: 10px 13px;
 }
-.service-div {
+.service1-div {
     position: relative;
 }
 .service-inner-text {
     position: absolute;
-    top: 230px;
-    left: 485px;
+    top: 220px;
+    left: -40px;
     font-weight: 700;
+    font-size: 14px;
 }
   .services-img7 img {
         margin-top: 60px;
@@ -103,9 +104,8 @@
     }
 
     .service-inner-text {
-    top: 391px;
-    left: 246px;
-    font-size: 16px;
+    top: 80px;
+    left: 190px;
     }
     .break {
         display: none;
@@ -115,5 +115,6 @@
     .svg-img {
         margin: -5px 0;
     }
+
     
 }
