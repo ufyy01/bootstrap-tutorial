@@ -104,9 +104,10 @@
 
     .service-inner-text {
     position: absolute;
-    top: 380px;
-    left: 250px;
+    top: 430px;
+    left: 240px;
     font-weight: 700;
+    font-size: 16px;
     }
 }
 @media screen and (min-width: 1000px) {
