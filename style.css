@@ -1,5 +1,12 @@
-
-
+:root {
+    --accentColor: #9a66e9;
+    --accentcolorlight: #f3f4f5;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .row {
     margin: 0 !important;
 }
@@ -19,22 +26,23 @@
 
 .btn-sign, .btn-hero, .btn-services {
     padding: 8px 22px;
-    background: #5000CA;
+    background: var(--accentColor);
     color: #e4e2e2ed;
     border-radius: 6px;
+    font-weight: 500;
 }
 
 .btn-hero, .btn-services {
     padding: 8px 37px;
     text-transform: uppercase;
 }
- .btn-services {
+.btn-services {
     padding: 8px 45px;
     border: none;
 }
 
 .btn-sign:hover, .btn-hero:hover, .btn-services:hover {
-    background: #5a48c5e1;
+    background: #5c4cb6e1;
 }
 
 .herotext h1 .services-text h2{
@@ -51,7 +59,8 @@
 }
 
 .card-section-item {
-    background: #5000CA;
+    background: var(--accentcolorlight);
+    margin: -5px 0;
 }
 
 .card-overall-section {
@@ -66,6 +75,25 @@
     border-top-right-radius: 7px;
 }
 
+/* .shape-1 {
+    float: right;
+	width: 298px;
+	height: 300px;
+	margin: 36px -259px 0 0;
+	shape-outside: content-box polygon( -2.3% -7.8%, 100% 0, -4.6% 96.5%, 5.2% 78.5%, 11.3% 65.5%, 12.8% 53%, 10.9% 38.6%, 10.8% 26.1%, 7.5% 10.6% );
+}
+.shape-2 {
+    float: left;
+	width: 101px;
+	height: 300px;
+	margin: 24px 0 0 -48px;
+	shape-outside: content-box polygon( -1% -2.9%, 96% -4.7%, 75% 12.1%, 56.5% 36%, 60.3% 75.4%, 93.9% 98.7%, -6.2% 93.2% );
+} */
+
+.services-text2 {
+    margin-top: 130px;
+}
+
 .card-header-item, .card-body-item {
     padding: 10px 13px;
 }
@@ -74,18 +102,141 @@
 }
 .service-inner-text {
     position: absolute;
-    top: 220px;
-    left: -40px;
+    top: 40%;
+    left: -15%;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
 }
-  .services-img7 img {
-        margin-top: 60px;
+.services-img7 img {
+    margin-top: 60px;
     }
 
+/* Packages styling starts */
+.package-card {
+    height: 100%;
+    box-shadow: 3px 6px 19px 0px rgba(9, 0, 0, 0.4);
+    border: none;
+    position: relative;
+}
+.package-card h5 {
+    color: white;
+}
+.cardheader1 {
+    background-color: pink;
+}
+.cardheader2 {
+    background-color: cornflowerblue;
+}
+.cardheader3 {
+    background-color: red;
+}
+
+.cardfooter {
+    position: absolute;
+    bottom: 4%;
+    left: 20%;
+}
+.packages-dash1, .packages-dash,.dash {
+    width: 200px;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.429);
+}
+.packages-dash {
+    position: absolute;
+    bottom: 19%;
+    left: 18%;
+}
+.package-card  button{
+    background-color: var(--accentColor);
+    color: white;
+}
 
 
+/* Packages styling ends */
 
+
+/* Testimonial styling starts */
+.testimonial {
+    background-color: var(--accentcolorlight);
+    padding-bottom: 150px;
+}
+.dash {
+    width: 500px;
+}
+.testimonial button {
+    background-color: white;
+    box-shadow: 3px 6px 19px 0px rgba(23, 15, 34, 0.4);
+}
+.slides {
+    background-color: white;
+    box-shadow: 3px 6px 19px 0px rgba(23, 15, 34, 0.4);
+    
+}
+.testimonial-card-footer .img {
+    width: 40px;
+    height: 40px;
+    background-color: var(--accentColor);
+    border-radius: 50%;
+    position: relative;
+}
+.testimonial-card-footer .img::after {
+    content: '\f007';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 25px;
+    position: absolute;
+    left: 10px;
+    color: var(--accentcolorlight);
+}
+
+/* Testimonial styling ends */
+
+/* footer starts */
+.footer-main {
+    background-color: #453260;
+    color: white;
+}
+
+.footer-text, .link {
+    opacity: 0.3;
+    font-size: 15px;
+}
+
+.link {
+    color: white
+}
+.link:hover {
+    color: var(--accentColor);
+    opacity: 1;
+    text-decoration: none;
+}
+
+.box {
+    background-color: skyblue;
+    border-radius: 12px;
+    width: 1000px;
+    color: white;
+}
+.box button {
+    border: none;
+    border-radius: 7px;
+    color: #5000CA;
+    font-weight: 500;
+}
+.box h3 {
+    font-weight: 600;
+}
+.footer-main {
+    position: relative;
+}
+.precious-footer {
+    position: absolute;
+    top: -12%;
+    left: 5%
+}
+
+
+/* footer ends */
 
 @media screen and (max-width: 992px) {
     .card-overall-section {
