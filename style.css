@@ -63,6 +63,11 @@
     margin: -5px 0;
 }
 
+.card-section-item h2 {
+    color: var(--accentColor);
+    font-weight: 600;
+}
+
 .card-overall-section {
     display: flex;
     justify-content: space-between;
@@ -76,13 +81,12 @@
 }
 
 /* .shape-1 {
-    float: right;
-	width: 298px;
+    float: left;
+    width: 101px;
 	height: 300px;
-	margin: 36px -259px 0 0;
-	shape-outside: content-box polygon( -2.3% -7.8%, 100% 0, -4.6% 96.5%, 5.2% 78.5%, 11.3% 65.5%, 12.8% 53%, 10.9% 38.6%, 10.8% 26.1%, 7.5% 10.6% );
-}
-.shape-2 {
+    shape-outside: polygon(50% 0%, 0% 100%, 100% 100%);
+} */
+/* .shape-2 {
     float: left;
 	width: 101px;
 	height: 300px;
