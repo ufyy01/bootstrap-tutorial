@@ -411,3 +411,15 @@ p {
         padding-top: 50px;
     }
 }
+@media screen and (min-width: 2000px) {
+    .box {
+        width: 1800px;
+    }
+    .cardfooter {
+        left: 35%;
+    }
+    .packages-dash {
+        bottom: 20%;
+        left: 35%;
+    }
+}
